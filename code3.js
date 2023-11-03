@@ -149,7 +149,7 @@ for (var i = 0, k = 0, l = gdjs.case_323Code.GDguiltyObjects1.length;i<l;++i) {
 gdjs.case_323Code.GDguiltyObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(2);
-}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "b2929acd-ac86-44e5-9fd8-3c400d381475", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)), "");
+}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "b2929acd-ac86-44e5-9fd8-3c400d381475", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Thank you", false);
 }}
 
@@ -172,7 +172,7 @@ for (var i = 0, k = 0, l = gdjs.case_323Code.GDnot_9595guiltyObjects1.length;i<l
 gdjs.case_323Code.GDnot_9595guiltyObjects1.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(1);
-}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "b2929acd-ac86-44e5-9fd8-3c400d381475", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)), "");
+}{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "b2929acd-ac86-44e5-9fd8-3c400d381475", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(0)));
 }{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Thank you", false);
 }}
 
